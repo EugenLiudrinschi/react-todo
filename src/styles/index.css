@@ -3,7 +3,48 @@
   padding: 0;
   box-sizing: border-box;
   } 
+  
+  .todo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
 
-  button {
+  .todo-input {
+    width: 400px;
+    border: 1px solid #000000;
+    border-radius: 5px; 
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+
+  .todo-button {
+    width: 400px;
+    background-color: #0000ff;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .todo-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    border: 1px solid #000000;
+    box-shadow: 3px 3px 3px grey;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .todo-close {
     cursor: pointer;
   }
